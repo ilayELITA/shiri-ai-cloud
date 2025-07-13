@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: shiri-ai-cloud
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    plan: free
+    branch: main
+    runtime: python
+    autoDeploy: true
